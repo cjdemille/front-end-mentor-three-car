@@ -1,0 +1,85 @@
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    height:100vh;
+    color: white;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1em 0;
+}
+p{
+    margin:2em 0;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    margin:3em auto;
+    width:95%;
+}
+
+img{
+    padding: 1em 0;
+}
+.sedan{
+    background-color:hsl(31, 77%, 52%);
+    padding:2em 3em;
+    border-top-left-radius: .4em;
+    border-top-right-radius: .4em;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding:2em 3em;
+}
+.luxury{
+    background-color:hsl(179, 100%, 13%) ;
+    padding:2em 3em;
+    border-bottom-left-radius: .4em;
+    border-bottom-right-radius: .4em;
+}
+
+.btn{
+    border-radius: 3em;
+    margin: 1em 0 4em 0;
+}
+
+.sedan .btn{
+    color:hsl(31, 77%, 52%);
+}
+
+.suv .btn{
+    color: hsl(184, 100%, 22%);
+}
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+
+  @media (min-width:992px) {
+      .sedan{
+          border-top-right-radius:0;
+          border-bottom-left-radius:.4em;
+      }
+
+      .luxury{
+          border-bottom-left-radius:0;
+          border-top-right-radius:.4em;
+      }
+      
+  }
